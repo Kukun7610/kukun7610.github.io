@@ -21,7 +21,7 @@
 			"type": "PerspectiveCamera",
 			"name": "Camera",
 			"layers": 1,
-			"matrix": [0.999851,0,-0.017266,0,-0.01587,0.39402,-0.918965,0,0.006803,0.919102,0.393961,0,-2.914578,38.850482,26.829627,1],
+			"matrix": [0.999997,0,-0.002267,0,-0.002267,0.000001,-0.999998,0,0,1,0.000001,0,-2.327595,55.732906,3.746446,1],
 			"fov": 50,
 			"zoom": 1,
 			"near": 0.1,
@@ -81,14 +81,14 @@
 				"thetaLength": 3.14
 			},
 			{
-				"uuid": "DBBCDA92-5EED-4632-812C-F6A0A5D407C1",
+				"uuid": "51574D6A-B8FC-4329-97CF-42CF24A489F4",
 				"type": "BoxGeometry",
 				"width": 2,
 				"height": 1,
 				"depth": 1,
 				"widthSegments": 1,
 				"heightSegments": 1,
-				"depthSegments": 5
+				"depthSegments": 1
 			},
 			{
 				"uuid": "3BDEB9FB-BDD4-44AD-8A47-008BED1C8982",
@@ -230,7 +230,7 @@
 					"type": "DirectionalLight",
 					"name": "DirectionalLight 1",
 					"layers": 1,
-					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-0.034424,25.314507,13.092602,1],
+					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-0.030164,25.314519,1.61794,1],
 					"color": 16777215,
 					"intensity": 1,
 					"shadow": {
@@ -282,7 +282,7 @@
 					"name": "Paddle",
 					"layers": 1,
 					"matrix": [2,0,0,0,0,1,0,0,0,0,1,0,0.073321,0.5,15.95,1],
-					"geometry": "DBBCDA92-5EED-4632-812C-F6A0A5D407C1",
+					"geometry": "51574D6A-B8FC-4329-97CF-42CF24A489F4",
 					"material": "40EC9BDA-91C0-4671-937A-2BCB6DA7EEBB",
 					"children": [
 						{
